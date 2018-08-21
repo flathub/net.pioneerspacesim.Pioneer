@@ -53,4 +53,8 @@
 			<image type="source">https://pioneerspacesim.net/assets/ss8.png</image>
 		</screenshot>
 	</screenshots>
+
+	<releases>
+		<release date="2018-02-03" />
+	</releases>
 </component>
