@@ -7,4 +7,4 @@ Exec=/app/bin/pioneer
 Icon=net.pioneerspacesim.Pioneer
 Terminal=false
 Type=Application
-Categories=Game
+Categories=Game;AdventureGame;ActionGame;Simulation;
