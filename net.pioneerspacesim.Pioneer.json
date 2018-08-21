@@ -15,9 +15,8 @@
 	],
 
 	"build-options" : {
-		"cflags": "-O3",
-		"cxxflags": "-O3",
-		"strip": true,
+		"cflags": "-O3 -g",
+		"cxxflags": "-O3 -g",
 		"env": {
 			"PIONEER_DATA_DIR": "/app/usr/share/pioneer"
 		}
