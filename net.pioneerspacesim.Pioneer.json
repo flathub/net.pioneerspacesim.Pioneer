@@ -57,15 +57,7 @@
 			"name": "pioneer",
 			"buildsystem": "autotools",
 			"build-commands": [
-				"install -Dm644 application-icon/pngs/pioneer-16x16.png /app/share/icons/hicolor/16x16/apps/net.pioneerspacesim.Pioneer.png",
-				"install -Dm644 application-icon/pngs/pioneer-22x22.png /app/share/icons/hicolor/22x22/apps/net.pioneerspacesim.Pioneer.png",
-				"install -Dm644 application-icon/pngs/pioneer-24x24.png /app/share/icons/hicolor/24x24/apps/net.pioneerspacesim.Pioneer.png",
-				"install -Dm644 application-icon/pngs/pioneer-32x32.png /app/share/icons/hicolor/32x32/apps/net.pioneerspacesim.Pioneer.png",
-				"install -Dm644 application-icon/pngs/pioneer-40x40.png /app/share/icons/hicolor/40x40/apps/net.pioneerspacesim.Pioneer.png",
-				"install -Dm644 application-icon/pngs/pioneer-48x48.png /app/share/icons/hicolor/48x48/apps/net.pioneerspacesim.Pioneer.png",
-				"install -Dm644 application-icon/pngs/pioneer-64x64.png /app/share/icons/hicolor/64x64/apps/net.pioneerspacesim.Pioneer.png",
-				"install -Dm644 application-icon/pngs/pioneer-128x128.png /app/share/icons/hicolor/128x128/apps/net.pioneerspacesim.Pioneer.png",
-				"install -Dm644 application-icon/pngs/pioneer-256x256.png /app/share/icons/hicolor/256x256/apps/net.pioneerspacesim.Pioneer.png"
+				"for i in 16 22 24 32 40 48 64 128 256 ; do install -Dm644 application-icon/pngs/pioneer-${i}x${i}.png /app/share/icons/hicolor/${i}x${i}/apps/net.pioneerspacesim.Pioneer.png ; done",
 			],
 			"sources": [
 				{
