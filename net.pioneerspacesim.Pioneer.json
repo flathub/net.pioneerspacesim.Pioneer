@@ -57,7 +57,7 @@
 			"name": "pioneer",
 			"buildsystem": "autotools",
 			"build-commands": [
-				"for i in 16 22 24 32 40 48 64 128 256 ; do install -Dm644 application-icon/pngs/pioneer-${i}x${i}.png /app/share/icons/hicolor/${i}x${i}/apps/net.pioneerspacesim.Pioneer.png ; done",
+				"for i in 16 22 24 32 40 48 64 128 256 ; do install -Dm644 application-icon/pngs/pioneer-${i}x${i}.png /app/share/icons/hicolor/${i}x${i}/apps/net.pioneerspacesim.Pioneer.png ; done"
 			],
 			"sources": [
 				{
