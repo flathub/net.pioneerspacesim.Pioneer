@@ -1,7 +1,7 @@
 {
 	"app-id": "net.pioneerspacesim.Pioneer",
 	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "1.6",
+	"runtime-version": "18.08",
 	"sdk": "org.freedesktop.Sdk",
 	"command": "pioneer",
 	"finish-args": [
@@ -83,7 +83,11 @@
 			"post-install": [
 				"for i in 16 22 24 32 40 48 64 128 256 ; do install -Dm644 application-icon/pngs/pioneer-${i}x${i}.png /app/share/icons/hicolor/${i}x${i}/apps/net.pioneerspacesim.Pioneer.png ; done",
 				"install -Dm644 pioneer.desktop /app/share/applications/net.pioneerspacesim.Pioneer.desktop",
-				"install -Dm644 pioneer.appdata.xml /app/share/appdata/net.pioneerspacesim.Pioneer.appdata.xml"
+				"install -Dm644 pioneer.appdata.xml /app/share/appdata/net.pioneerspacesim.Pioneer.appdata.xml",
+				"ln -s /app/share/applications /app/usr/share/applications",
+				"ln -s /app/share/appdata /app/usr/share/appdata",
+				"ln -s /app/share/icons /app/usr/share/icons"
+
 			]
 		}
 	]
