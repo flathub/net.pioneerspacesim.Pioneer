@@ -14,10 +14,7 @@
 	],
 	"build-options" : {
 		"cflags": "-O3 -g",
-		"cxxflags": "-O3 -g",
-		"env": {
-			"PIONEER_DATA_DIR": "/app/usr/share/pioneer"
-		}
+		"cxxflags": "-O3 -g"
 	},
 	"cleanup": [
 		"/include",
@@ -63,17 +60,18 @@
 			]
 		},
 		"shared-modules/glu/glu-9.0.0.json",
+		"shared-modules/glew/glew.json",
 		{
 			"name": "pioneer",
+			"buildsystem": "cmake-ninja",
+			"config-opts": [
+				"-DUSE_SYSTEM_LIBGLEW:BOOL=YES"
+			],
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/pioneerspacesim/pioneer/archive/20180203.tar.gz",
-					"sha256": "19aa89e8ec0221b937b9279e0d4897b3016e0ce80858d03600d3e80cd7daa907"
-				},
-				{ 
-					"type": "file", 
-					"path": "pioneer.desktop" 
+					"url": "https://github.com/pioneerspacesim/pioneer/archive/20190203.tar.gz",
+					"sha256": "e526f1659ae321f45b997c0245acecbf9c4cf2122b025ab8db1090f1b9804f5e"
 				},
 				{ 
 					"type": "file", 
@@ -81,13 +79,7 @@
 				}
 			],
 			"post-install": [
-				"for i in 16 22 24 32 40 48 64 128 256 ; do install -Dm644 application-icon/pngs/pioneer-${i}x${i}.png /app/share/icons/hicolor/${i}x${i}/apps/net.pioneerspacesim.Pioneer.png ; done",
-				"install -Dm644 pioneer.desktop /app/share/applications/net.pioneerspacesim.Pioneer.desktop",
-				"install -Dm644 pioneer.appdata.xml /app/share/appdata/net.pioneerspacesim.Pioneer.appdata.xml",
-				"ln -s /app/share/applications /app/usr/share/applications",
-				"ln -s /app/share/appdata /app/usr/share/appdata",
-				"ln -s /app/share/icons /app/usr/share/icons"
-
+				"install -Dm644 pioneer.appdata.xml /app/share/appdata/net.pioneerspacesim.Pioneer.appdata.xml"
 			]
 		}
 	]
