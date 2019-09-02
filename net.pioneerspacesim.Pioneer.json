@@ -9,7 +9,7 @@
 		"--socket=x11",
 		"--socket=wayland",
 		"--socket=pulseaudio",
-		"--device=dri",
+		"--device=all",
 		"--persist=.pioneer"
 	],
 	"build-options" : {
