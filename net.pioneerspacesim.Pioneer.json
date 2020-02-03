@@ -59,7 +59,7 @@
 				}
 			]
 		},
-		"shared-modules/glu/glu-9.0.1.json",
+		"shared-modules/glu/glu-9.json",
 		"shared-modules/glew/glew.json",
 		{
 			"name": "pioneer",
