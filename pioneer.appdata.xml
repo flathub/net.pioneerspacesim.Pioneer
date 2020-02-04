@@ -39,19 +39,16 @@
 
 	<screenshots>
 		<screenshot type="default">
-			<image type="source">https://pioneerspacesim.net/assets/ss10.png</image>
+			<image type="source">https://pioneerspacesim.net/carousel/in-flight.jpg</image>
 		</screenshot>
 		<screenshot>
-			<image type="source">https://pioneerspacesim.net/assets/ss2.png</image>
+			<image type="source">https://pioneerspacesim.net/carousel/new-hope.jpg</image>
 		</screenshot>
 		<screenshot>
-			<image type="source">https://pioneerspacesim.net/assets/ss5.png</image>
+			<image type="source">https://pioneerspacesim.net/carousel/station-landing.jpg</image>
 		</screenshot>
 		<screenshot>
-			<image type="source">https://pioneerspacesim.net/assets/ss7.png</image>
-		</screenshot>
-		<screenshot>
-			<image type="source">https://pioneerspacesim.net/assets/ss8.png</image>
+			<image type="source">https://pioneerspacesim.net/carousel/sunrise-moon.jpg</image>
 		</screenshot>
 	</screenshots>
 
