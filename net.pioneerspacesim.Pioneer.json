@@ -78,6 +78,9 @@
 					"path": "pioneer.appdata.xml" 
 				}
 			],
+			"build-commands": [
+				"ninja build-data"
+			],
 			"post-install": [
 				"install -Dm644 pioneer.appdata.xml /app/share/appdata/net.pioneerspacesim.Pioneer.appdata.xml"
 			]
