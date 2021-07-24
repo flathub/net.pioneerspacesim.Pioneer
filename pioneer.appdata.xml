@@ -53,6 +53,7 @@
 	</screenshots>
 
 	<releases>
+		<release version="20210723" date="2021-07-23" />
 		<release version="20210203" date="2021-02-03" />
 		<release version="20200203" date="2020-02-03" />
 		<release version="20190203" date="2019-02-03" />
