@@ -45,6 +45,7 @@
 			"buildsystem": "cmake-ninja",
 			"config-opts": [
 				"-DASSIMP_BUILD_ALL_IMPORTERS_BY_DEFAULT:BOOL=NO",
+				"-DASSIMP_BUILD_ALL_EXPORTERS_BY_DEFAULT:BOOL=NO",
 				"-DASSIMP_BUILD_COLLADA_IMPORTER:BOOL=YES",
 				"-DASSIMP_BUILD_OBJ_IMPORTER:BOOL=YES",
 				"-DASSIMP_BUILD_3MF_IMPORTER:BOOL=YES",
@@ -54,8 +55,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/assimp/assimp/archive/v4.1.0.tar.gz",
-					"sha256": "3520b1e9793b93a2ca3b797199e16f40d61762617e072f2d525fad70f9678a71"
+					"url": "https://github.com/assimp/assimp/archive/v5.2.5.tar.gz",
+					"sha256": "b5219e63ae31d895d60d98001ee5bb809fb2c7b2de1e7f78ceeb600063641e1a"
 				}
 			]
 		},
@@ -70,8 +71,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/pioneerspacesim/pioneer/archive/refs/tags/20220203.tar.gz",
-					"sha256": "415b55bab7f011f7244348428e13006fa67a926b9be71f2c4ad24e92cfeb051c"
+					"url": "https://github.com/pioneerspacesim/pioneer/archive/refs/tags/20230203.tar.gz",
+					"sha256": "80eea94e0f7e4d8e6a0c4629bdfb89201f82aae2f59ee7a1f7a487eeeccf27c7"
 				},
 				{ 
 					"type": "file", 
