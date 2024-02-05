@@ -71,12 +71,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/pioneerspacesim/pioneer/archive/refs/tags/20230203.tar.gz",
-					"sha256": "80eea94e0f7e4d8e6a0c4629bdfb89201f82aae2f59ee7a1f7a487eeeccf27c7"
-				},
-				{
-					"type": "patch",
-					"path": "0001-Fix-out-of-bounds-index-uncovered-by-D_GLIBCXX_ASSER.patch"
+					"url": "https://github.com/pioneerspacesim/pioneer/archive/refs/tags/20240203.tar.gz",
+					"sha256": "f4ec9706ebb346c9795271dc087209336f18df086f9a6b8830a29541eb803466"
 				},
 				{ 
 					"type": "file", 
