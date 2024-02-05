@@ -5,6 +5,7 @@
 	<project_license>GPL-3.0-only</project_license>
 	<name>Pioneer</name>
 	<summary>A game of lonely space adventure</summary>
+	<developer_name>pioneerspacesim.net community</developer_name>
 	<url type="homepage">https://pioneerspacesim.net/</url>
 	<url type="faq">https://pioneerwiki.com/wiki/FAQ</url>
 	<launchable type="desktop-id">net.pioneerspacesim.Pioneer.desktop</launchable>
