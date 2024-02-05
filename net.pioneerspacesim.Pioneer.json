@@ -66,6 +66,7 @@
 			"name": "pioneer",
 			"buildsystem": "cmake-ninja",
 			"config-opts": [
+				"-DUSE_SSE42:BOOL=NO",
 				"-DUSE_SYSTEM_LIBGLEW:BOOL=YES"
 			],
 			"sources": [
