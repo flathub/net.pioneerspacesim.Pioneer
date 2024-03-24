@@ -54,6 +54,7 @@
 	</screenshots>
 
 	<releases>
+		<release version="20240314" date="2024-03-14" />
 		<release version="20240203" date="2024-02-03" />
 		<release version="20230203" date="2023-02-03" />
 		<release version="20220203" date="2022-02-03" />

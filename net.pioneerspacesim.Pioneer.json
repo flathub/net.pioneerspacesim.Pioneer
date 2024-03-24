@@ -72,8 +72,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/pioneerspacesim/pioneer/archive/refs/tags/20240203.tar.gz",
-					"sha256": "f4ec9706ebb346c9795271dc087209336f18df086f9a6b8830a29541eb803466"
+					"url": "https://github.com/pioneerspacesim/pioneer/archive/refs/tags/20240314.tar.gz",
+					"sha256": "9cd31abd3e4d90cb589ecd628118dfb76ad5e98638361da666d76539b3269c3f"
 				},
 				{ 
 					"type": "file", 
