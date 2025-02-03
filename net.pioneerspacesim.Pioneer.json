@@ -73,7 +73,7 @@
 				{
 					"type": "archive",
 					"url": "https://github.com/pioneerspacesim/pioneer/archive/refs/tags/20250203.tar.gz",
-					"sha256": "4baff0b8bb36f0a7383cab6b36e209b9a4cb6a8e216c6762205f012da6d6805a"
+					"sha256": "5b2814ad63b9b7f995fd6a1b913f97d00b450663d07cfbae59c88cccb97d5604"
 				},
 				{ 
 					"type": "file", 
