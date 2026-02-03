@@ -1,7 +1,7 @@
 {
 	"app-id": "net.pioneerspacesim.Pioneer",
 	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "24.08",
+	"runtime-version": "25.08",
 	"sdk": "org.freedesktop.Sdk",
 	"command": "pioneer",
 	"finish-args": [
@@ -62,6 +62,7 @@
 		},
 		"shared-modules/glu/glu-9.json",
 		"shared-modules/glew/glew.json",
+		"shared-modules/SDL2/SDL2_image.json",
 		{
 			"name": "pioneer",
 			"buildsystem": "cmake-ninja",
