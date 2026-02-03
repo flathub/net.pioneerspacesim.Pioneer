@@ -8,6 +8,7 @@
 	<developer_name>pioneerspacesim.net community</developer_name>
 	<url type="homepage">https://pioneerspacesim.net/</url>
 	<url type="faq">https://pioneerwiki.com/wiki/FAQ</url>
+	<url type="vcs-browser">https://github.com/pioneerspacesim/pioneer/</url>
 	<launchable type="desktop-id">net.pioneerspacesim.Pioneer.desktop</launchable>
 
 	<description>
