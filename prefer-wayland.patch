@@ -1,0 +1,32 @@
+From 121ab297760673e2de9730b8f666f0ecb8d0c7d5 Mon Sep 17 00:00:00 2001
+From: Paul Cercueil <paul@crapouillou.net>
+Date: Thu, 5 Feb 2026 00:58:49 +0100
+Subject: [PATCH] .desktop: Prefer Wayland over X11
+
+Not specifying SDL_VIDEODRIVER will cause SDL to only use X11 and not
+even try Wayland, which is a problem on systems that only have Wayland.
+
+By specifying SDL_VIDEODRIVER=wayland,x11 the game will work on both
+Wayland and X11 sessions.
+
+Signed-off-by: Paul Cercueil <paul@crapouillou.net>
+---
+ metadata/net.pioneerspacesim.Pioneer.desktop.cmakein | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/metadata/net.pioneerspacesim.Pioneer.desktop.cmakein b/metadata/net.pioneerspacesim.Pioneer.desktop.cmakein
+index f3dec24db..5f1d71ea2 100644
+--- a/metadata/net.pioneerspacesim.Pioneer.desktop.cmakein
++++ b/metadata/net.pioneerspacesim.Pioneer.desktop.cmakein
+@@ -3,7 +3,7 @@ Version=1.0
+ Name=Pioneer
+ GenericName=Pioneer Space Simulator
+ Comment=A game of lonely space adventure
+-Exec=@PIONEER_EXECUTABLE@
++Exec=env SDL_VIDEODRIVER=wayland,x11 @PIONEER_EXECUTABLE@
+ Icon=net.pioneerspacesim.Pioneer
+ Terminal=false
+ Type=Application
+-- 
+2.51.0
+
