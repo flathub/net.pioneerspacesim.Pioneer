@@ -73,12 +73,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/pioneerspacesim/pioneer/archive/refs/tags/20260203.tar.gz",
-					"sha256": "861341d317fc0ca506e3a2e8ff00858983652a5656289f8fe9ad1525df1a95da"
-				},
-				{
-					"type": "patch",
-					"path": "prefer-wayland.patch"
+					"url": "https://github.com/pioneerspacesim/pioneer/archive/refs/tags/20260907.tar.gz",
+					"sha256": "11d1fbf745f5fc710f30cce02065b60e5aeb05f7c79b2cfdde8b4c64ec132491"
 				},
 				{ 
 					"type": "file", 
