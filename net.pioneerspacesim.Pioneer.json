@@ -9,7 +9,9 @@
 		"--socket=wayland",
 		"--socket=fallback-x11",
 		"--socket=pulseaudio",
-		"--device=all",
+		"--device=dri",
+		"--device=input",
+		"--device-if=all:!has-input-device",
 		"--persist=.pioneer"
 	],
 	"build-options" : {
